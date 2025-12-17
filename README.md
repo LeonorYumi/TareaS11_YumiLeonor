@@ -1,2 +1,8 @@
 # TareaS11_YumiLeonor
 
+
+**PRACTICA 1 - USUARIOS**
+
+
+**PRACTICA 2 - TRIGGER Y USUARIOS**
+
