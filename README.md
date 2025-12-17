@@ -75,3 +75,84 @@
 
 **PRACTICA 2 - TRIGGER Y USUARIOS**
 
+-- crear base de datos
+<img width="974" height="116" alt="image" src="https://github.com/user-attachments/assets/86a98e96-b878-4287-b056-2dff5496b235" />
+
+-- crear tablas 
+<img width="875" height="495" alt="image" src="https://github.com/user-attachments/assets/582f59b2-97fe-4f09-93d5-766faf58e5b0" />
+<img width="963" height="728" alt="image" src="https://github.com/user-attachments/assets/d6d71b91-c476-448d-8874-95f439ab9010" />
+
+-- CREAR USUARIOS 
+
+-- usuario analista 
+
+-- el usuario analista no tiene permisos para crear usuarios, modificar privilegios
+
+-- eliminar la tabla de auditoría ni alterar triggers.
+<img width="975" height="390" alt="image" src="https://github.com/user-attachments/assets/bf0151b5-ed7b-4671-b0bc-f633bfec4060" />
+
+-- usuario visor
+<img width="952" height="394" alt="image" src="https://github.com/user-attachments/assets/e25b9b27-cba7-43e9-a7aa-e8dfcdf13aae" />
+
+-- el usuario visor solo tiene permisos de lectura
+<img width="975" height="253" alt="image" src="https://github.com/user-attachments/assets/9fd91eef-0d6c-47d4-996e-beff1360722f" />
+
+
+
+*-- TRIGGERS Y AUDITORIA*
+
+-- Triggers tabla cliente 
+
+-- INSERT
+<img width="975" height="406" alt="image" src="https://github.com/user-attachments/assets/0b03c032-5609-4d15-914a-f18a5745d896" />
+
+-- UPDATE
+<img width="975" height="365" alt="image" src="https://github.com/user-attachments/assets/dc8966b0-3820-4cf9-8461-169f3eeb50ea" />
+
+
+-- DELETE
+<img width="975" height="370" alt="image" src="https://github.com/user-attachments/assets/a033602d-19d8-4af0-8b30-132c17839009" />
+
+
+-- Triggers tabla inversionista
+
+-- INSERT
+<img width="975" height="403" alt="image" src="https://github.com/user-attachments/assets/44147d39-1ee6-4e55-bca0-52c01207a039" />
+
+
+-- UPDATE
+<img width="975" height="366" alt="image" src="https://github.com/user-attachments/assets/4c69cdad-5d89-4fc6-930b-3cb60725ff3e" />
+
+
+-- DELETE
+<img width="975" height="364" alt="image" src="https://github.com/user-attachments/assets/22af2622-eeca-4f85-92b7-b614f7e73186" />
+
+
+-- Triggers tabla venta
+
+-- INSERT
+<img width="975" height="277" alt="image" src="https://github.com/user-attachments/assets/cf39be09-5238-4cfc-b89a-fa5a7430ddf2" />
+
+
+-- UPDATE
+<img width="975" height="368" alt="image" src="https://github.com/user-attachments/assets/682db876-d755-4719-9750-d1d495186331" />
+
+
+-- DELETE
+<img width="975" height="251" alt="image" src="https://github.com/user-attachments/assets/6551c7d0-d0fc-48ba-8d8c-0c81d3422e63" />
+
+
+-- VERIFICAR PERMISOS
+<img width="975" height="289" alt="image" src="https://github.com/user-attachments/assets/7d0dd80b-9620-40f8-8bff-735525e8ccf9" />
+
+<img width="934" height="339" alt="image" src="https://github.com/user-attachments/assets/75fbf9c8-142e-4476-bcd0-d225e617eeea" />
+
+PRUEBAS COMO ANALISTA
+<img width="941" height="377" alt="image" src="https://github.com/user-attachments/assets/c7e52a38-cd64-4ac7-a519-a49aaab052e2" />
+
+<img width="613" height="236" alt="image" src="https://github.com/user-attachments/assets/378cb7ac-99e6-465a-85e9-507410d3b05e" />
+
+<img width="611" height="208" alt="image" src="https://github.com/user-attachments/assets/3d657c91-c335-46f3-b29b-edd735ed3120" />
+
+PRUEBAS COMO VISOR
+<img width="975" height="344" alt="image" src="https://github.com/user-attachments/assets/20d50330-fa33-4612-b211-a4a16ff7baf3" />
