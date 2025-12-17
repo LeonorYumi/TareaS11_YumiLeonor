@@ -17,3 +17,28 @@ CREATE TABLE pago_campamento (
     monto DECIMAL(10, 2),
     FOREIGN KEY (cliente_id) REFERENCES clientes(cliente_id)
 );
+-- PRACTICA 1 - Crear Usuarios 
+create user 'PP_GRILLO'@'localhost' identified by 'pp123';
+
+-- Crear dos usuarios
+create user 'user_Dolores_de _Barriga'@'localhost' identified by 'dolores12';
+create user 'user_Paco_ Mer'@'localhost' identified by 'paco12';
+
+-- OTORGAR PRIVILEGIOS
+--  user_Dolores_de _Barriga
+-- permisos de crud en la tabla clientes
+grant select, insert, update on campamento.clientes to 'user_Dolores_de _Barriga'@'localhost';
+flush privileges;
+
+-- permisos de consulta en la tabla de pago_campeonato
+grant select on campamento.pago_campamento to 'user_Dolores_de _Barriga'@'localhost';
+flush privileges;
+
+-- user_Paco_ Mer
+-- permisos de crud en la tabla pago_campeonato
+grant select, insert, delete on campamento.pago_campamento to 'user_Paco_ Mer'@'localhost';
+flush privileges;
+
+-- permisos de consulta en la tabla clientes
+grant select on campamento.clientes to 'user_Paco_ Mer'@'localhost';
+flush privileges;
